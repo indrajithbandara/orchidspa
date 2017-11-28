@@ -1,0 +1,59 @@
+<div class="looper__link card {{ product.product_group }}" title="{{ product.name }}" href="{{ site.baseurl }}/{{ product.product_group }}/{{ product.name | slugify }}/" id="{{ product.name | slugify }}">
+
+  <div class="product_image">
+    <figure class="">
+      <img  class="product_thumb" src="{{ site.baseurl }}/assets/p/products/{{ product.product_group }}/{{ product.name | slugify }}.jpg" alt="{{ product.name }}" title="{{ product.name }}">
+      {% if product.tag %}
+      <figcaption class="figcaption {{ product.tag | slugify }}">{{ product.tag }}</figcaption>
+      {% endif %}
+    </figure>
+    <div class="product_group {{ product.product_group | slugify }}">
+      {{ product.product_group }}
+    </div>
+  </div>
+
+  <div class="product_text">
+
+    <h1>{{product.name}}</h1>
+
+    <h3>{{product.subtitle}}</h3>
+
+    <div class="duration">
+
+      <span class="detail_text">{% include svg/use.html id="icn--clock" class="clock" %}</span>
+
+      {% if product.duration == 1 %}
+      <span class="detail_text">{{product.duration}} hour</span>
+      {% else %}
+      <span class="detail_text">{{product.duration}} hours</span>
+      {% endif %}
+
+    </div>
+
+    <div class="product_text_content">
+      {{product.content }}
+    </div>
+
+  </div>
+
+  <div class="button_row">
+    {% if product.rate %}
+      <div class="prices_block">
+        <span class="full_rate">{{product.rate}}</span>
+        {% if product.rate_IDR %}
+          <span class="full_rateIDR">{{product.rate_IDR}}</span>
+        {% endif %}
+        {% if product.internet_rate %}
+          <span class="internet_rate">{{product.internet_rate}}</span>
+        {% endif %}
+        {% if product.internet_rate_IDR %}
+          <span class="internet_rateIDR">{{product.internet_rate_IDR}}</span>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <button class="button btn-enquiry" data-eazytreatmentid="{{product.button_book_link}}" id="booking-btn{{product.button_book_link}}">BOOK NOW</button>
+
+  </div>
+
+</div>

@@ -1,0 +1,10 @@
+_site/
+.sass-cache/
+.jekyll-metadata
+
+/__lab
+/.workinprogress
+Icon
+.DS_Store
+.jekyll
+/node_modules

@@ -1,0 +1,364 @@
+#ezwidget.ezbootstrap.widgetbooking{
+    font-family: Arial, sans-serif !important;
+}
+
+#calendar{
+    width: 100%;
+    min-height: 400px;
+    max-height: 600px;
+}
+
+.popup-modal-title{
+    font-size: 24px;
+}
+
+#submit-book{
+    height: 60px;
+    font-size:16px;
+}
+#package h4{
+    width: 100%;
+    text-align: center;
+}
+.package-parent{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.package-item{
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.package-item:hover{
+    background-color: #E7F4F2;
+    border-bottom: 1px solid #61B2A7;
+}
+
+#package-information{
+    min-height: 400px;
+}
+
+#prelaoder-crts{
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    color:#fff;
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.tab-pane{
+    padding-top: 15px;
+
+}
+
+.table.table-checkout tr>th{
+    border-bottom: 1px #DDDDDD solid;
+}
+.table.table-checkout tr{
+    border: 1px #DDDDDD solid;
+}
+.no-list-style li{
+    list-style: none;
+}
+
+#payment .radio input{
+    margin-top: 15px;
+}
+#crot-tabs{
+    height: 101px;
+}
+#crot-tabs > li{
+    width:25%;
+    text-align: center;
+}
+
+.nav-tabs[role="tablist"]{
+    border-bottom: none;
+}
+
+ul#crot-tabs > li[role="presentation"] > a,
+ul#crot-tabs > li.active[role="presentation"] > a{
+    width: 100%;
+    height: 100px;
+    display: block;
+    text-align: center;
+    padding: 10px 0px;
+    border: none;
+    margin: auto;
+    color:#65717D;
+    position: relative;
+}
+ul#crot-tabs > li[role="presentation"] > a:hover,
+ul#crot-tabs > li[role="presentation"] > a:active,
+ul#crot-tabs > li[role="presentation"] > a:visited,
+ul#crot-tabs > li[role="presentation"] > a:link{
+    background-color: #fff;
+    border: none;
+}
+
+ul#crot-tabs > li[role="presentation"] > a > div > span{
+    width: 28px;
+    height: 28px;
+    border:3px solid #65717D;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: block;
+    background-color: #65717D;
+    text-align: center;
+    color: #fff;
+    padding-top: 2px;
+}
+ul#crot-tabs > li.active[role="presentation"] > a{
+    color:##449D44;
+}
+ul#crot-tabs > li.active[role="presentation"] > a > div,
+ul#crot-tabs > li[role="presentation"] > a > div{
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+ul#crot-tabs > li.active[role="presentation"] > a > div > span{
+    background-color: #449D44;
+    border-color: #449D44;
+}
+
+ul#crot-tabs > li[role="presentation"] > a:after,
+ul#crot-tabs > li[role="presentation"] > a:before{
+    content: "";
+    display: inline-block;
+    width: 40%;
+    left: 0px;
+    top: 53%;
+    vertical-align: middle;
+    border-bottom: 1px solid #65717D;
+    position: absolute;
+}
+
+ul#crot-tabs > li[role="presentation"] > a:after{
+    right: 0px;
+    left: auto;
+}
+table.table.coupon-input{
+    border:none;
+    width: 300px;
+    float: right;
+}
+table.table.coupon-input>tbody>tr>td{
+    border: none;
+}
+
+.btn-link.btn-cart-link,
+.btn-link.btn-cart-link:hover{
+    color: #449D44;
+    text-decoration: none;
+    font-size:14px;
+}
+.btn-link.btn-cart-link > i{
+    margin-right: 10px;
+}
+
+
+.carousel-container{
+    display: inline-block;
+    float: left;
+    width: 350px;
+    max-height: 300px;
+    padding: 0 20px 20px 0;
+}
+
+#package-information h2{
+    margin-top: 0px;
+}
+
+#package-information > .description{
+    margin-top: 20px;
+}
+
+.ez-carousel > .carousel-control{
+    opacity: 0;
+    background: none !important;
+}
+.ez-carousel > .carousel-control:hover{
+    opacity: 1;
+    background: none !important;
+}
+
+/*------------------------------------------------------------- PRELAODER CSS*/
+#prelaoder-crts #loader-wrapper {
+
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+}
+#prelaoder-crts #loader {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top-color: #3498db;
+    -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 1s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+
+#prelaoder-crts #loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #e74c3c;
+    -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+      animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+
+#prelaoder-crts #loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    border-top-color: #f9c922;
+    -webkit-animation: spin 0.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+      animation: spin 0.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}
+/*END PRELOADER CSS ---------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------------*/
+.eazyfloatcart{
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+    background-color: #36B369;
+}
+
+.eazyfloatcart > a,
+.eazyfloatcart > a:hover,
+.eazyfloatcart > a:active,
+.eazyfloatcart > a:focus{
+    color: #fff;
+}
+
+
+.ez-global-loader{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(247, 247, 247, 0.9);
+}
+
+.ez-global-loader .ez-liner {
+    width: 50%;
+    margin-left: 25%;
+    display: block;
+    margin-top: 220px;
+    height: 100px;
+    padding: 36px 0px;
+    background-color: rgba(139, 198, 63, 0.9);
+    box-shadow: 2px 2px 5px #75A541;
+}
+
+.ez-global-loader .ez-liner center{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+
+#ezwidget.ezbootstrap.widgetbooking a#eazy-cart-button{
+    color:#fff;
+}
+#ezwidget.ezbootstrap.widgetbooking .bootstrap-datetimepicker-widget table td.day.old,
+#ezwidget.ezbootstrap.widgetbooking .bootstrap-datetimepicker-widget table td.day.old.weekend,
+#ezwidget.ezbootstrap.widgetbooking .bootstrap-datetimepicker-widget table td.day.new,
+#ezwidget.ezbootstrap.widgetbooking .bootstrap-datetimepicker-widget table td.day.new.weekend{
+    opacity: 0;
+}
+
+#ezwidget.ezbootstrap.widgetbooking .bootstrap-datetimepicker-widget table td.day.disabled{
+    background-color: rgba(155, 169, 170, 0.2);
+    border-radius: 0px;
+    text-shadow: none;
+}
+
+#ezwidget.ezbootstrap table.table tr>th,
+#ezwidget.ezbootstrap table.table tr>td{
+    background: #fff;
+    color : #000;
+    text-shadow: none;
+}
+
+#ezwidget.ezbootstrap table.table tr>td{
+    border-top: none;
+    border-bottom: 1px solid #ddd;
+}
+
+#ezwidget.ezbootstrap .datepicker table .picker-switch,
+#ezwidget.ezbootstrap .datepicker table .prev,
+#ezwidget.ezbootstrap .datepicker table .nex,
+#ezwidget.ezbootstrap .datepicker table .dow,
+#ezwidget.ezbootstrap .datepicker table .day{
+    background: #fff;
+    color : #000;
+    text-shadow: none;
+    border: none;
+    font-size: 14px;
+}
+#ezwidget.ezbootstrap .datepicker table .day:hover{
+    border-radius: 0px;
+}
+#ezwidget.ezbootstrap .datepicker table .day.disabled{
+    background: rgba(155, 169, 170, 0.2);
+}

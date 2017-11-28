@@ -1,0 +1,21 @@
+.bungkus.promotion {
+  z-index: 7;
+  background-color: lighten($brand_color, 40%);
+  padding-bottom: $vertical_rhythm;
+
+  .promotion_title {
+    margin-top: $vertical_rhythm;
+    margin-bottom: $vertical_rhythm--small;
+  }
+
+  .promotion_image {
+    margin-bottom: $vertical_rhythm--small;
+    @include media( "screen", ">minWidth") {
+      max-width: 50%;
+      float: left;
+      margin-right: $vertical_rhythm;
+    }
+  }
+
+  .promotion_text {}
+}

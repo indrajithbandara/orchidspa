@@ -1,0 +1,26 @@
+<!-- eazyengine.com • Our dependency script url: -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment.min.js"></script>
+<script type="text/javascript" src="https://eazyengine.com/booking/eazy-bootstrap.js"></script>
+<script type="text/javascript" src="{{ "/assets/js/bootstrap-datetimepicker.min.js" | prepend: site.baseurl }} "></script>
+
+<!-- eazyengine.com • Include our javascript url before your html close tag. -->
+<script type="text/javascript" src="https://eazyengine.com/booking/eazybookingwidget.js"></script>
+<script type="text/javascript">
+  window.setTimeout(function() {
+    (function($) {
+      $(document).ready(function(e) {
+        widget('.btn-enquiry', {
+            secret_key: "18ca6b3a225cae29b3c377727294765b",
+            vendor_token: "5f2cab2518f92f13de07fff599869c0c8c501313",
+            vendor_id: "f7f8a4710bf546c37d2c81460640d2a6",
+
+            bottomCartClass: 'floatingcart'
+          },
+          jQuery
+        );
+
+      });
+    })(jQuery);
+  }, 2000);
+</script>

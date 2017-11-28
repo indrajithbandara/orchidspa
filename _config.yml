@@ -1,0 +1,95 @@
+title: Bali Orchid SPA
+subtitle:
+content_is_about: Our Offer # general content of website, used in footer menu title
+show_logo: show # 'show' or 'hide'
+description: > # this means to ignore newlines until "baseurl:"
+keywords: Bali, traditional, eco, eco-friendly, rooms, restaurant, activities, green
+lang: en_US
+version: 1.0.1
+
+baseurl: ""
+url: "https://baliorchidspa.com/"
+qr: show # 'show' or 'hide' put qr.svg in includes/defs.html call it: icn--qr
+menu: short_menu # 'short_menu' or 'long_menu'
+
+company:
+  name: Bali Orchid SPA
+  legal_name: Bali Orchid SPA #if need to overrides 'company.name' in footer fill up this one
+  email: info@baliorchidspa.com
+  telephone: +62 361 8473338
+  telephone_whatsapp: +62 81 999 690088
+  fax: +62 361 8473365
+  biz_hours: 9am - 11pm
+  address: Jl. By Pass Ngurah Rai 108 Kuta, 80671 Bali
+  maplink: https://goo.gl/maps/a8vihAcwWAx
+  country: Indonesia
+  twitter: #complete URL
+  facebook_page: https://web.facebook.com/orchidspabali/
+  youtube: https://www.youtube.com/channel/UC_UbyHFEOP-rti6nH5_4grw
+  video_presentation: https://www.youtube.com/watch?v=1kFmziGP-XI
+  instagram: https://www.instagram.com/baliorchidspa/
+  agoda: #complete URL
+  linkedin: #complete URL
+  tripadvisor: https://www.tripadvisor.com/Attraction_Review-g297694-d3257377-Reviews-Bali_Orchid_Spa-Denpasar_Bali.html
+  booking_com: #complete URL
+  booking_sabeapp: #complete URL
+  booking: #complete URL
+  airbnb: #complete URL
+  gplus: #complete URL
+  tumblr: #complete URL
+  soundcloud: #complete URL
+
+#SEO https://jekyll.github.io/jekyll-seo-tag/usage/
+# SEO tag will use the YAML front matter if included in a post, page, or document:
+#
+# title
+# description
+# image - (e.g., /assets/page-pic.jpg)
+# author - Page-specific author (see below)
+# lang - Page-specific language
+author: rokma
+twitter:
+  username: rokmatwit
+facebook:
+  app_id: #Facebook app ID for Facebook insights
+  publisher: #Facebook page URL or ID of the publishing entity
+  admins: #Facebook user ID for domain insights linked to a personal account
+logo: /assets/favicons/apple-touch-icon-152x152.png
+
+google:
+  analytics:
+  verification:
+
+# Build settings
+markdown: kramdown
+plugins:
+ - jekyll-seo-tag
+ - jekyll-redirect-from
+ - jekyll-sitemap
+ - html-proofer
+exclude:
+  - Gemfile.lock
+  - node_modules
+  - package-lock.json
+  - Gemfile
+  - rakefile
+
+permalink: /:title/ # pretty
+
+collections:
+  products:
+  pages:
+    output: true
+    permalink: /:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: products
+    values:
+      layout: product # change this to get the layout needed
+
+## NOTES:
+## 'product_group': better be singular and match the dir name in both assets and pages. Used in urls too.
+## title: it's used in headings only to get the plural as in 'tours'.
+## photos must be named same as 'page.title' and when more than 1 '{{page.title}}-02' and so on.

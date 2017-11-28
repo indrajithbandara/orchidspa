@@ -1,0 +1,29 @@
+<div class="header group ">
+
+  <div class="container">
+
+    {% if site.menu == "short_menu" %}
+      <a class="logo_block group" href="/" title="home">
+        <img class="logo" src="/assets/p/logo.png" alt="Bali Orchid SPA" title="Bali Orchid SPA">
+        <!-- {% include svg/use.html id="icn--deklumpulogo" class="logo" %} -->
+      </a>
+
+      {% include menu_short.html %}
+    {% endif %}
+
+    {% if site.menu == "long_menu" %}
+    <div class="header_block">
+
+      <a class="logo_block group" href="/" title="home">
+        {% if site.show_logo == "show" %}
+          {% include svg/use.html id="icn--deklumpulogo" class="logo" %}
+        {% endif %}
+      </a>
+
+      {% include menu_long.html %}
+      {% include script_menu_toggle.html %}
+    {% endif %}
+
+  </div>
+
+</div>
