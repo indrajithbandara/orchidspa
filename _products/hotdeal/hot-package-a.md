@@ -1,7 +1,5 @@
 ---
 name: Hot Package A
-subtitle:
-description:
 product_group: hotdeal
 duration: 5
 rate: USD 75

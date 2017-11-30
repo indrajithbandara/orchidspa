@@ -1,7 +1,5 @@
 ---
 name: Shirodara Massage
-subtitle:
-description:
 product_group: service
 duration: 1
 rate: USD 65

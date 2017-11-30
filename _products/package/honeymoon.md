@@ -1,7 +1,5 @@
 ---
 name: Honeymoon
-subtitle:
-description:
 product_group: package
 duration: 3
 rate: USD 270

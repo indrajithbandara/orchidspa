@@ -1,7 +1,5 @@
 ---
 name: Manicure
-subtitle:
-description:
 product_group: service
 duration: 1
 rate: USD 35

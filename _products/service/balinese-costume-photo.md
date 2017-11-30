@@ -1,7 +1,5 @@
 ---
 name: Balinese Costume Photo
-subtitle:
-description:
 product_group: service
 duration: 1
 rate: USD 45

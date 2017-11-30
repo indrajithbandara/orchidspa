@@ -1,7 +1,5 @@
 ---
 name: Chocolate
-subtitle:
-description:
 product_group: package
 duration: 2
 rate: USD 75

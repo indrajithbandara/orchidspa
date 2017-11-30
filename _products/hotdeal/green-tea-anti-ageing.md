@@ -1,7 +1,5 @@
 ---
 name: Green Tea Anti Ageing
-subtitle:
-description:
 product_group: hotdeal
 duration: 2.5
 rate: USD 55

@@ -1,7 +1,5 @@
 ---
 name: Balinese Costume Plus
-subtitle:
-description:
 product_group: service
 duration: 2
 rate: USD 75

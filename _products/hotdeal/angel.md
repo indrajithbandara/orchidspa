@@ -1,7 +1,5 @@
 ---
 name: Angel
-subtitle:
-description:
 product_group: hotdeal
 duration: 2.5
 rate: USD 67

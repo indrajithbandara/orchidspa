@@ -1,7 +1,5 @@
 ---
 name: Beauty
-subtitle:
-description:
 product_group: package
 duration: 4
 rate: USD 140

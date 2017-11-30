@@ -1,7 +1,5 @@
 ---
 name: Warm Stone Massage
-subtitle:
-description:
 product_group: service
 duration: 2
 rate: USD 65

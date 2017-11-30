@@ -1,7 +1,5 @@
 ---
 name: Lynphatic Massage
-subtitle:
-description:
 product_group: service
 duration: 1.5
 rate: USD 50

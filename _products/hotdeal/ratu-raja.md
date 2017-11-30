@@ -1,7 +1,5 @@
 ---
 name: Ratu Raja
-subtitle:
-description:
 product_group: hotdeal
 duration: 5
 rate: USD 105
