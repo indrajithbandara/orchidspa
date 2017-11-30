@@ -38,6 +38,8 @@ company:
   gplus: #complete URL
   tumblr: #complete URL
   soundcloud: #complete URL
+  payments: Cash, Visa, MasterCard or bank transfer
+  transport: Free Pick up&#58; Nusa Dua, Seminyak, Kuta, Jimbaran, Sanur
 
 #SEO https://jekyll.github.io/jekyll-seo-tag/usage/
 # SEO tag will use the YAML front matter if included in a post, page, or document:

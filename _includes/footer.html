@@ -247,14 +247,14 @@
         <div class="footer_icon pickup">
           <div class="menu_item" role="menuitem" title="pickup">
             <span>{% include svg/use.html id="icn--taxi" class="taxi" %}</span>
-            <span class="whitespacewrap">Free Pick up: Nusa Dua, Seminyak, Kuta, Jimbaran, Sanur</span>
+            <span class="whitespacewrap">{{site.company.transport}}</span>
           </div>
         </div>
 
         <div class="footer_icon payments">
           <div class="menu_item" role="menuitem" title="pickup">
             <span>{% include svg/use.html id="icn--payment" class="payment" %}</span>
-            <span class="whitespacewrap">Cash, Visa, MasterCard or bank transfer</span>
+            <span class="whitespacewrap">{{site.company.payments}}</span>
           </div>
         </div>
 
@@ -339,16 +339,7 @@
 
   </div>
 
-  <div class="translate_wrap">
-    <div id="google_translate_element"></div>
-  </div>
-
-
-  <script type="text/javascript">
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-}
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  {% include script_googletranslate.html %}
 
 
 </footer>

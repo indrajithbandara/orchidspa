@@ -1,18 +1,18 @@
-### Editing guide
+# Editing guide
 
-#### Home page
+## Home page
 
 To edit the intro text in the home page, [go here](https://github.com/toybreaker/orchidspa/tree/source/_includes/editables)
 
 To have a product displayed in the home page set the field ```featured: true```.
 
 
-#### Company infos
+## Company infos
 
-Edit the proper line, from line 15 to line 40, in the [config.yml](https://github.com/toybreaker/orchidspa/blob/source/_config.yml)
+Edit the proper line, from line 15 to line 42, in the [config.yml](https://github.com/toybreaker/orchidspa/blob/source/_config.yml)
 
 
-#### Products
+## Products
 
 Products are organized in [folders](https://github.com/toybreaker/orchidspa/tree/source/_products):
 - [Service](https://github.com/toybreaker/orchidspa/tree/source/_products/service)
@@ -29,17 +29,17 @@ The ```button_book_link: ...``` field need to match the id number in the eazyeng
 
 If you want it to display a "new" flag set ```tag: new```. At this point its all done. It will now appear in the ```service``` page (in alphabetical order) and also in the footer menu.
 
-#### Gallery
+## Gallery
 
 To add or remove gallery photos add it or remove it [here](https://github.com/toybreaker/orchidspa/tree/source/assets/p/gallery). Pictures need to be 1680x1120px exactly.
 
 
-#### Home page slideshow
+## Home page slideshow
 
 To add or remove home slideshow photos add it or remove it [here](https://github.com/toybreaker/orchidspa/tree/source/assets/p/home). Pictures need to be 1680x1120px exactly.
 
 
-#### Text formatting
+## Text formatting
 
 It will be probably not necessary but you can use Markdown to format all text. Markdown is quite simple, here are some tutorial:
 
@@ -47,13 +47,22 @@ It will be probably not necessary but you can use Markdown to format all text. M
 - Basic [markdown tutorial](https://help.github.com/articles/basic-writing-and-formatting-syntax/)
 - Quick reference and showcase [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
+## Description Text
 
-#### NOTE
+Pages (services, hotdeals, packages, gallery, home) have a ```description: ...``` field. This is used in the page meta and will appear in the Google search results. So, to fine tune, and make sure that your product page is correctly marketed on Google edit that field.
+
+## Special characters
+
+Be careful with what you write in the ["Yaml front matter"](https://jekyllrb.com/docs/frontmatter/). Any special character needs to be encoded, otherwise it will break the website. Use [this guide](https://www.ascii.cl/htmlcodes.htm) to find the correct encoding for characters like ";", ":", "!", and the such... See for example line 42 in [config.yml](https://github.com/toybreaker/orchidspa/blob/source/_config.yml), where ":" in written "&#58;".
+
+## NOTE
 
 Be careful not to change other files or things you don't know, because you can easily break the website.  
 
 
-## Warning:
+
+
+# Warning:
 
 Despite this repo being public, it doesn't mean that all these assets are open-source and/or copyright free, or even that you may use any of them. Please, ask for permission first by contacting us: info@junglestar.org  
 
