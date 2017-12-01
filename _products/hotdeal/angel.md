@@ -7,7 +7,7 @@ rate_IDR: Rp. 885,000
 image: /assets/p/products/hotdeals/angel.jpg
 button_book_link: 61
 featured: true
-tag: #new
+tag: new
 ---
 
 - Thalassic Foot Wash
