@@ -1,7 +1,7 @@
 ---
 name: Hot Package A
 product_group: hotdeal
-duration: 3
+duration: 5
 rate: USD 75
 rate_IDR: Rp. 990,000
 image: /assets/p/products/hotdeals/hot-package-a.jpg
